@@ -1,10 +1,11 @@
 from tkinter import *
 
 window=Tk()
-window.geometry('800x500')
+window.geometry('480x500')
 window.configure(bg="gainsboro")
 calculation=""
 x=StringVar()
+window.title('calculator')
 def onpress(n):
     global calculation
     calculation+=str(n)
